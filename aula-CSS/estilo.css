@@ -1,0 +1,65 @@
+* { 
+    color: red;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+    margin: 0;
+} /* este é um código que aplica estilo a todos os tags no html */
+
+/* #primeiro {
+    border: 1px solid green;
+    margin: 30px;
+}
+
+.segundo {
+    border: 5px solid yellow;
+    padding: 15px;
+} */
+
+#primeiro,
+.segundo,
+.navigation {
+    border: 10px solid powderblue;
+    padding: 8px;
+    margin: 5px;
+}
+.navigation nav span {  /* nesta sintaxe sem vírgulas nos condicionamos que tem
+    que ser um span dentro de um nav dentro do .navigarion (como esta no arquivo
+    html) */
+    color: indigo;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+nav span:hover{
+    text-decoration: underline;
+    color: rgb(241, 238, 7);
+    background-color: lightcoral;
+}
+
+/* os estilos in-line (dentro das linhas de tags do html) tem prioridade > do que
+ os estilos nos arquivos CSS, então usamos o "important para ter a prioridade do
+ CSS acima do in-line 
+ CUIDADO !!!!! O important é um seletor absoluto é utilizar muito ou a toda hora
+ vai bagunçar o código */
+.segundo > div {
+    display: block !important; 
+}
+
+.segundo > p {
+    color: lawngreen;
+}
+
+
+
+/* #primeiro p:first-child {
+    color: blueviolet;
+}
+
+#primeiro p:last-child {
+    color: blueviolet;
+}
+
+#primeiro p:nth-child(3) {
+    color: blueviolet;
+} */

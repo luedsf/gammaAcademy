@@ -1,0 +1,83 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+color: #ccced1;
+font-family: 'League Spartan', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+body {
+    /* o ./ indica para sair do arquivo e procurar no diretorio local */
+    /*
+    background-image: url(./); 
+    background-repeat: no-repeat;
+    background-position: center; */
+    background: url(./SOAEIA2G7ZAXLMVEO45H7GR3IA.webp) no-repeat center center fixed; /* outro modo de fazer */
+    background-size: cover;
+
+    /* cores gradiente de fundo 
+
+    background: linear-gradient(90deg, rgb(40, 236, 14), rgba(27, 236, 226, 0.815), rgba(226, 31, 31, 0.829)); */
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .name h1 {
+    font-size: 45px;
+}
+
+.container .name h5 {
+    font-size: 25px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input {
+    width: 50%;
+    color: red;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.form button {
+    width: 15%;
+    color: black;
+    font-weight: 500;
+    font-style: italic;
+
+}

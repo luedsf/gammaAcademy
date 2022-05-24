@@ -1,0 +1,27 @@
+/* ctrl + ; atalho para ainserir comentários VS code */
+/* criando estilos internos na nossa páginas em CSS: */
+
+    /*criando contexto de estilo nativo */
+    h1{
+        font-size: 14px;
+        color: red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    body{
+        font-size: 16px;
+        background-color: grey;
+    }
+    
+    /* criando estilo para classes */
+    .cab_especial{
+        background-color: green;
+        font-size: 16px;
+        font-weight: bolder;
+        color: yellow;
+    }
+
+    /* criando estilo para IDs */
+    #nome{
+        color: rgba(3, 166, 22, 0.66);
+        font-size: 28px;
+    }
