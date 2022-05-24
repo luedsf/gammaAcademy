@@ -1,6 +1,6 @@
 comandos utilizados
 
-npm i -D pnpm // esse comando instala o pacote do PNPM a partir do NPM, o -d faz instalação para desenvolvimento na pasta que estamos 
+npm i -D pnpm // esse comando instala o pacote do PNPM a partir do node, o -d faz instalação para desenvolvimento na pasta que estamos 
 
 pnpm i gql --filter @pasta/subpasta // esse comando instala o pacote do GraphQL somente na pasta designada em @*** pelo comando "--filter"
 
