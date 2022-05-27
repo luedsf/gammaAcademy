@@ -115,7 +115,7 @@ Registry : Local onde ficam armazenados os pacotes. [Registry](https://registry.
 >Para criar um projeto e iniciar o NPM utilizamos o comando:
 
 ```
-npm start
+npm init
 ```
 
 >A criação de um projeto permite gerenciar os pacotes em seu projeto - cria o package.json guardando os dados do projeto e dos pacotes utilizados no projeto  <br><br>
@@ -155,3 +155,60 @@ JavaScriptéuma linguagem de programação que permiteodesenvolvimento de progra
 <h3> Outras fontes de consultas </h3>
 
 [TSlang](https://www.typescriptlang.org/)
+
+<h3> Comandos Terminal para o TS </h3>  
+
+>Inicia projeto
+
+```
+npm init
+```
+```
+version: (1.0.0)                                            
+description: Projeto teste do TS                            
+entry point: (index.js) dist/index.js                 
+test command:
+git repository:
+keywords:
+author: luedsf
+license: (ISC)
+About to write to C:\Users\lesf\projeto-cronos\gammaAcademy\NodeJs\TS\package.json:
+```
+
+>Instala TS
+
+```
+npm i typescript
+```
+
+>Cria o arquivo de configuração do TS
+
+```
+npx tsc --init
+```
+
+>Compila TS real-time para a pasta/arquivo deinido no  npxtsc --init
+
+```
+npx tsc --watch
+```
+
+>Instala pacotes de complementos para node no TS
+
+```
+npm install @types/node
+```
+
+>Instala o query-String para TS após o types
+```
+npm i query-string
+```
+
+
+<h3> configuração do  o TSconfig.json </h3>
+
+```
+"rootDir": "./",
+
+"outDir": "./dist/",
+```
