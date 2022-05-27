@@ -82,27 +82,76 @@ O NODE é utilizado na construção das APIs dentro do servidor
 
 <i>(fonte MDN Web Docs: https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introduction)</i>
 
-> COMANDOS: <br> 
-Para parar de rodar o servidor NODE no terminal 'CtrL+C' (2x se não funcionar 1x) - ou fechar o terminal (ou powershell, etc.)
+> COMANDOS:
+Para parar de rodar o servidor NODE no terminal:
+```
+'CtrL+C'
+```
+**_(2x se não funcionar 1x) - ou fechar o terminal (ou powershell, etc.)_**
 
-> <h2>Documentação de apoio:</h2>
-> Comunidade e nertwork poderá ajudar bastante.<br>
->  O site do <a> https://nodejs.org/en/ </a> é muito bom por ser a documento oficial.<br>
-> <a> https://devdocs.io/node/ </a> - O devdocs.io serve para varios outros <br>
-> <a> https://stackoverflow.com/ </a> - stackoverflow <br>
-<hr><br><br><br>
+<br>
 
-<h1> NPM : Pacote de Gerenciamento do Node </h1>
+<h2>Documentação de apoio:</h2>
+
+- Comunidade e nertwork poderá ajudar bastante.  
+- O site do [node](https://nodejs.org/en/) é muito bom por ser a documento oficial.
+- O [devdocs.io](https://devdocs.io/node/) serve para varios outros  
+- [Stack Overflow](https://stackoverflow.com/)
+
+<br>
+
+<h2> NPM : Pacote de Gerenciamento do Node </h2>
 
 >O pacote/módulo permiteocompartilhar de funcionalidades implementadas entre diferentes projetos, pessoas e empresas.
 
 >O NPM é o gerenciador de pacotes do Node permitindo a busca, instalação,gerenciamento, criação e publicação de pacotes.
 
-Website : Busca e análise de pacotes. https://www.npmjs.com/  
-CLI (Command Line Interface) : Comandos de terminal, mais utilizado. https://docs.npmjs.com/cli/v8/commands  
-Registry : Local onde ficam armazenados os pacotes. https://registry.npmjs.org/  
+Website : Busca e análise de pacotes. [site](https://www.npmjs.com/)  
+CLI (Command Line Interface) : Comandos de terminal, mais utilizado. [Docs](https://docs.npmjs.com/cli/v8/commands)  
+Registry : Local onde ficam armazenados os pacotes. [Registry](https://registry.npmjs.org/)  
 
-<h1> Comandos NPM: </h1><br>
+<h2> Comandos NPM: </h2><br>
 
->Para criar um projeto e iniciar o NPM utilizamos o comando <a><b><i> npm start </a></i></b>  
->A criação de um projeto permite gerenciar os pacotes em seu projeto - cria o package.json guardando os dados do projeto e dos pacotes utilizados no projeto
+>Para criar um projeto e iniciar o NPM utilizamos o comando:
+
+```
+npm start
+```
+
+>A criação de um projeto permite gerenciar os pacotes em seu projeto - cria o package.json guardando os dados do projeto e dos pacotes utilizados no projeto  <br><br>
+
+<h1> O JS (JavaScript) </h1>  
+
+JavaScriptéuma linguagem de programação que permiteodesenvolvimento de programas frontend, ela é carregada quando uma página web é acessada e o navegador é o responsável pela sua execução. Seu objetivo <b>inicial</b> era dar "vida" às páginas web, tornarofrontend mais "inteligente" e diminuir as interações com o backend/servidor.  
+
+> Isso diminuiu o cosumo da banda do cliente (client)!
+
+<h3> Outras fontes de consultas </h3>  
+
+> [MDN](https://developer.mozilla.org/pt-BR/docs/web/javascript)  
+> [w3schools](https://www.w3schools.com/nodejs/)  
+> [Stack Overflow](https://stackoverflow.com/)  
+
+<h1> O TP (TypeScript) </h1>  
+
+> É uma liguagem que é compilada para se transforma em JS podendo rodar em qualquer ambiente que roda JS. Ela também é utilizada para solucionar o problema de tipagem do JS oferecendo funcionalidades de tipagem classica, estatica e interfaces.  
+
+**_TypeScript_**
+
+1. *Superset* _do Java_;
+2. **Precisa** __ser compilado__;
+3. Possui conceitos como tipos e interfaces;
+5. Mais recomendado para grandes projetos;
+6. ~~ignorar~~
+
+**_JavaScript_**
+
+* Linguagem de prog de scripts;
+- Não precisa ser compilado;
++ Nâo possui tipos e interfaces;
+- Gdes projetos podem ser difíceis de gerenciar;
+
+
+<h3> Outras fontes de consultas </h3>
+
+[TSlang](https://www.typescriptlang.org/)
