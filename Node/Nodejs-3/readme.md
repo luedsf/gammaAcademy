@@ -130,9 +130,9 @@ npx sequelize db:migrate
 No arquivo JSON:
 
 `
-{
-  "collaborador_id": 3,
-   "date": "2021-06-21T12:13:13-03:00"
+{  
+  "collaborador_id": 3,  
+   "date": "2021-06-21T12:13:13-03:00"  
 }
 `
 
