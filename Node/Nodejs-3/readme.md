@@ -120,21 +120,20 @@ npx sequelize db:migrate
 > O comando **npx sequelize db:migrate** serve para atualizar (migrar) as configurações tabela conforme código.  
 O comando __npx sequelize migration:create --name=create__ serve para criar o arquivo xxx.js dentro da pasta **_ ` ./src/database/migrations/xxxx.js ` _**  
 
-### `Models de agendamento`
+### Models de agendamento
 
 ```
 npx sequelize migration:create --name=create-apointments
 npx sequelize db:migrate
 ```
 
-No arquivo JSON:
+`No arquivo JSON:`
 
-`
 {  
   "collaborador_id": 3,  
    "date": "2021-06-21T12:13:13-03:00"  
 }
-`
+
 
 >o final do argumento "date" é "-03:00" que é o 'time-zone' do Brazil para acertar a hora no BD.
 
