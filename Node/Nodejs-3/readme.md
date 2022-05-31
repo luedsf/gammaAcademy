@@ -49,6 +49,7 @@ npm i pg pg-hstore
 ```
 
 ### Migration usuário
+>__NPM__ não da suporte para o CLI do Sequelize, temos de usar o __NPX__
 ```
 npx sequelize migration:create --name=create-users
 ```
@@ -116,7 +117,13 @@ npx sequelize db:migrate
 npx sequelize migration:create --name=create-pick-userphotos
 npx sequelize db:migrate
 ```
-> O comando **npx sequelize db:migrate** serve para atualizar as configurações tabela conforme código.  
+> O comando **npx sequelize db:migrate** serve para atualizar (migrar) as configurações tabela conforme código.  
 O comando __npx sequelize migration:create --name=create__ serve para criar o arquivo xxx.js dentro da pasta **_./src/database/migrations/xxxx.js_**  
 
-### 
+### Models de agendamento
+
+```
+npx sequelize migration:create --name=create-apointments
+npx sequelize db:migrate
+```
+` teste `
