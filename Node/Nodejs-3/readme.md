@@ -129,13 +129,14 @@ npx sequelize db:migrate
 
 `No arquivo JSON:`
 
+```
 [
- {  
+  {  
     "collaborador_id": 3,  
     "date": "2021-06-21T12:13:13-03:00"  
- }
+  }
 ]
-
+```
 
 >o final do argumento "date" é "-03:00" que é o 'time-zone' do Brazil para acertar a hora no BD.
 
